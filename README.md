@@ -8,6 +8,18 @@
 - **Level**: Perguruan Tinggi / Semester Lanjut
 - **Pertemuan**: 16
 
+## Deskripsi Prasyarat
+
+Mahasiswa sebaiknya sudah memiliki pengetahuan dasar sebelum mengikuti modul ini:
+
+- **JavaScript/TypeScript Dasar**: Memahami konsep dasar JavaScript ES6+, tipe data, fungsi, dan async/await
+- **Web Development Dasar**: HTML, CSS, dan konsep dasar HTTP/REST API
+- **Git & GitHub**: Dasar-dasar version control dan working dengan repository
+- **Database Dasar**: Konsep relational database dan SQL dasar
+- **Command Line**: Menggunakan terminal/command prompt untuk menjalankan perintah
+
+> **Catatan**: Semua prasyarat akan dibahas kembali di **Pertemuan 01** dan **Pertemuan 02** bila diperlukan.
+
 ## Teknologi Utama
 
 | Komponen | Teknologi |
@@ -21,24 +33,24 @@
 
 ## Daftar Pertemuan
 
-| No | Pertemuan | Materi | Link |
-|----|-----------|--------|------|
-| 01 | TypeScript Dasar | Modern JS, TypeScript basics | [README](pertemuan/pertemuan-01/README.md) |
-| 02 | TypeScript Lanjutan | Type, Interface, Generic, Modules | [README](pertemuan/pertemuan-02/README.md) |
-| 03 | Sync & Async | Promise, async/await, Event Loop | [README](pertemuan/pertemuan-03/README.md) |
-| 04 | HTTP & Web Service | HTTP protocol, Request/Response | [README](pertemuan/pertemuan-04/README.md) |
-| 05 | Bun & Elysia | Setup Bun, Routing dasar | [README](pertemuan/pertemuan-05/README.md) |
-| 06 | REST API | CRUD API dengan Elysia | [README](pertemuan/pertemuan-06/README.md) |
-| 07 | Database Integration | MySQL, SQL, CRUD database | [README](pertemuan/pertemuan-07/README.md) |
-| 08 | Ujian Tengah Semester | Project-based assessment | [README](pertemuan/pertemuan-08/README.md) |
-| 09 | Svelte Dasar | Komponen, Props, State | [README](pertemuan/pertemuan-09/README.md) |
-| 10 | Integrasi API | Fetch API, HTTP dari frontend | [README](pertemuan/pertemuan-10/README.md) |
-| 11 | Form & Validasi | Frontend & backend validation | [README](pertemuan/pertemuan-11/README.md) |
-| 12 | JWT Authentication | Login, Token, Middleware | [README](pertemuan/pertemuan-12/README.md) |
-| 13 | OAuth 2.0 | OAuth flow, Identity Provider | [README](pertemuan/pertemuan-13/README.md) |
-| 14 | Security & Architecture | CORS, SQLi, Clean Architecture | [README](pertemuan/pertemuan-14/README.md) |
-| 15 | CI/CD & Deployment | GitHub Actions, Caddy, Tunnel | [README](pertemuan/pertemuan-15/README.md) |
-| 16 | Final Project | Full-stack beserta deployment | [README](pertemuan/pertemuan-16/README.md) |
+| No | Pertemuan | Materi |
+|----|-----------|--------|
+| 01 | [TypeScript Dasar](pertemuan/pertemuan-01/README.md) | Modern JS, TypeScript basics |
+| 02 | [TypeScript Lanjutan](pertemuan/pertemuan-02/README.md) | Type, Interface, Generic, Modules |
+| 03 | [Sync & Async](pertemuan/pertemuan-03/README.md) | Promise, async/await, Event Loop |
+| 04 | [HTTP & Web Service](pertemuan/pertemuan-04/README.md) | HTTP protocol, Request/Response |
+| 05 | [Bun & Elysia](pertemuan/pertemuan-05/README.md) | Setup Bun, Routing dasar |
+| 06 | [REST API](pertemuan/pertemuan-06/README.md) | CRUD API dengan Elysia |
+| 07 | [Database Integration](pertemuan/pertemuan-07/README.md) | MySQL, SQL, CRUD database |
+| 08 | [Ujian Tengah Semester](pertemuan/pertemuan-08/README.md) | Project-based assessment |
+| 09 | [Svelte Dasar](pertemuan/pertemuan-09/README.md) | Komponen, Props, State |
+| 10 | [Integrasi API](pertemuan/pertemuan-10/README.md) | Fetch API, HTTP dari frontend |
+| 11 | [Form & Validasi](pertemuan/pertemuan-11/README.md) | Frontend & backend validation |
+| 12 | [JWT Authentication](pertemuan/pertemuan-12/README.md) | Login, Token, Middleware |
+| 13 | [OAuth 2.0](pertemuan/pertemuan-13/README.md) | OAuth flow, Identity Provider |
+| 14 | [Security & Architecture](pertemuan/pertemuan-14/README.md) | CORS, SQLi, Clean Architecture |
+| 15 | [CI/CD & Deployment](pertemuan/pertemuan-15/README.md) | GitHub Actions, Caddy, Tunnel |
+| 16 | [Final Project](pertemuan/pertemuan-16/README.md) | Full-stack beserta deployment |
 
 ## Struktur Proyek
 
@@ -62,6 +74,9 @@ AdvancedWebProgramming/
 │   ├── pertemuan-14/     # Web Security & Architecture
 │   ├── pertemuan-15/     # Testing, CI/CD, Deployment
 │   └── pertemuan-16/     # Final Project
+├── ACUAN.md              # Pedoman modul
+├── PERTEMUAN.md          # Detail pertemuan
+└── README.md             # File ini
 ```
 
 ## Quick Start
