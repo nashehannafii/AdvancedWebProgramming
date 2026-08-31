@@ -2,7 +2,7 @@
 
 ## Navigasi
 
-[🏠 Beranda](../README.md) | [🔧 Prerequest](../prerequest/README.md) | ... | [Pertemuan 11](pertemuan-11/README.md) | **Pertemuan 12** | [Pertemuan 13](pertemuan-13/README.md) | ... | [Pertemuan 16](pertemuan-16/README.md)
+[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | ... | [Pertemuan 11](../pertemuan-11/README.md) | **Pertemuan 12** | [Pertemuan 13](../pertemuan-13/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
 
 ---
 

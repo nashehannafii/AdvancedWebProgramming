@@ -35,22 +35,22 @@ Mahasiswa sebaiknya sudah memiliki pengetahuan dasar sebelum mengikuti modul ini
 
 | No | Pertemuan | Materi |
 |----|-----------|--------|
-| 01 | [TypeScript Dasar](pertemuan/pertemuan-01/README.md) | Modern JS, TypeScript basics |
-| 02 | [TypeScript Lanjutan](pertemuan/pertemuan-02/README.md) | Type, Interface, Generic, Modules |
-| 03 | [Sync & Async](pertemuan/pertemuan-03/README.md) | Promise, async/await, Event Loop |
-| 04 | [HTTP & Web Service](pertemuan/pertemuan-04/README.md) | HTTP protocol, Request/Response |
-| 05 | [Bun & Elysia](pertemuan/pertemuan-05/README.md) | Setup Bun, Routing dasar |
-| 06 | [REST API](pertemuan/pertemuan-06/README.md) | CRUD API dengan Elysia |
-| 07 | [Database Integration](pertemuan/pertemuan-07/README.md) | MySQL, SQL, CRUD database |
-| 08 | [Ujian Tengah Semester](pertemuan/pertemuan-08/README.md) | Project-based assessment |
-| 09 | [Svelte Dasar](pertemuan/pertemuan-09/README.md) | Komponen, Props, State |
-| 10 | [Integrasi API](pertemuan/pertemuan-10/README.md) | Fetch API, HTTP dari frontend |
-| 11 | [Form & Validasi](pertemuan/pertemuan-11/README.md) | Frontend & backend validation |
-| 12 | [JWT Authentication](pertemuan/pertemuan-12/README.md) | Login, Token, Middleware |
-| 13 | [OAuth 2.0](pertemuan/pertemuan-13/README.md) | OAuth flow, Identity Provider |
-| 14 | [Security & Architecture](pertemuan/pertemuan-14/README.md) | CORS, SQLi, Clean Architecture |
-| 15 | [CI/CD & Deployment](pertemuan/pertemuan-15/README.md) | GitHub Actions, Caddy, Tunnel |
-| 16 | [Final Project](pertemuan/pertemuan-16/README.md) | Full-stack beserta deployment |
+| 01 | [TypeScript Dasar](./pertemuan/pertemuan-01/README.md) | Modern JS, TypeScript basics |
+| 02 | [TypeScript Lanjutan](./pertemuan/pertemuan-02/README.md) | Type, Interface, Generic, Modules |
+| 03 | [Sync & Async](./pertemuan/pertemuan-03/README.md) | Promise, async/await, Event Loop |
+| 04 | [HTTP & Web Service](./pertemuan/pertemuan-04/README.md) | HTTP protocol, Request/Response |
+| 05 | [Bun & Elysia](./pertemuan/pertemuan-05/README.md) | Setup Bun, Routing dasar |
+| 06 | [REST API](./pertemuan/pertemuan-06/README.md) | CRUD API dengan Elysia |
+| 07 | [Database Integration](./pertemuan/pertemuan-07/README.md) | MySQL, SQL, CRUD database |
+| 08 | [Ujian Tengah Semester](./pertemuan/pertemuan-08/README.md) | Project-based assessment |
+| 09 | [Svelte Dasar](./pertemuan/pertemuan-09/README.md) | Komponen, Props, State |
+| 10 | [Integrasi API](./pertemuan/pertemuan-10/README.md) | Fetch API, HTTP dari frontend |
+| 11 | [Form & Validasi](./pertemuan/pertemuan-11/README.md) | Frontend & backend validation |
+| 12 | [JWT Authentication](./pertemuan/pertemuan-12/README.md) | Login, Token, Middleware |
+| 13 | [OAuth 2.0](./pertemuan/pertemuan-13/README.md) | OAuth flow, Identity Provider |
+| 14 | [Security & Architecture](./pertemuan/pertemuan-14/README.md) | CORS, SQLi, Clean Architecture |
+| 15 | [CI/CD & Deployment](./pertemuan/pertemuan-15/README.md) | GitHub Actions, Caddy, Tunnel |
+| 16 | [Final Project](./pertemuan/pertemuan-16/README.md) | Full-stack beserta deployment |
 
 ## Struktur Proyek
 
@@ -83,4 +83,4 @@ AdvancedWebProgramming/
 
 1. Baca [prerequest](prerequest/README.md) untuk instalasi tools
 2. Ikuti tiap modul pertemuan untuk belajar secara bertahap
-3. Kerjakan final project di [pertemuan-16](pertemuan/pertemuan-16/README.md)
+3. Kerjakan final project di [pertemuan-16](../pertemuan/pertemuan-16/README.md)
