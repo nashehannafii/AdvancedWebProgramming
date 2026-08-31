@@ -20,6 +20,20 @@ Mahasiswa sebaiknya sudah memiliki pengetahuan dasar sebelum mengikuti modul ini
 
 > **Catatan**: Semua prasyarat akan dibahas kembali di **Pertemuan 01** dan **Pertemuan 02** bila diperlukan.
 
+## Capaian Pembelajaran Umum
+
+Setelah menyelesaikan seluruh modul (16 pertemuan), mahasiswa mampu [ACUAN.md#tujuan]:
+
+1. Mengembangkan aplikasi web dengan TypeScript dan memahami sync/async serta HTTP/client-server
+2. Membangun Web Service & REST API dengan **Bun + Elysia** dan menghubungkan ke **MySQL**
+3. Mengembangkan frontend dengan **Svelte + TypeScript** dan mengintegrasikan via Fetch API
+4. Menerapkan form validation, error handling, serta authentication (**JWT**) & **OAuth 2.0** + authorization role/permission
+5. Menerapkan keamanan (CORS, XSS, SQL Injection, CSRF), arsitektur terstruktur (Controller-Service-Repository), dan testing
+6. Menggunakan **Git/GitHub**, **GitHub Actions CI/CD** (self-hosted runner), **Reverse Proxy (Caddy/Nginx)**, dan **Cloudflare Tunnel** untuk deployment di Local Computer via domain
+7. Mengembangkan **final project full-stack** yang memenuhi semua kriteria di atas dan mempresentasikannya
+
+> Detail capaian per pertemuan ada di **## Capaian Pembelajaran** pada tiap `pertemuan/pertemuan-XX/README.md`.
+
 ## Teknologi Utama
 
 | Komponen | Teknologi |
@@ -83,4 +97,4 @@ AdvancedWebProgramming/
 
 1. Baca [prerequest](prerequest/README.md) untuk instalasi tools
 2. Ikuti tiap modul pertemuan untuk belajar secara bertahap
-3. Kerjakan final project di [pertemuan-16](../pertemuan/pertemuan-16/README.md)
+3. Kerjakan final project di [pertemuan-16](pertemuan/pertemuan-16/README.md)

@@ -2,10 +2,23 @@
 
 ## Navigasi
 
-[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | [Pertemuan 01](../pertemuan-01/README.md) | [Pertemuan 02](../pertemuan-02/README.md) | **Pertemuan 03** | [Pertemuan 04](../pertemuan-04/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
+[Beranda](../../README.md) | [Prerequest](../../prerequest/README.md) | [Daftar Pertemuan](../../README.md#daftar-pertemuan) | [<- Sebelumnya: Pertemuan 02](../pertemuan-02/README.md) | [Selanjutnya: Pertemuan 04 ->](../pertemuan-04/README.md)
 
 ---
 
+## Capaian Pembelajaran
+
+Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
+
+- Menjelaskan perbedaan synchronous vs asynchronous dan peran event loop
+- Menggunakan callback, Promise (pending/fulfilled/rejected), `async`/`await` dengan benar
+- Melakukan chaining Promise dan error handling (`try/catch`, `.catch()`, `Promise.all`)
+- Mensimulasikan pengambilan data dari server dengan delay dan menangani kasus gagal/timeout
+- Mencegah callback hell dan memilih pola async yang tepat untuk kasus sekuensial vs paralel
+
+> **Indikator ketercapaian:** Mampu menjalankan simulasi fetch sekuensial dan paralel, menangani error tanpa crash, dan menjelaskan urutan eksekusi event loop.
+
+---
 ## Materi
 
 ### 1. Synchronous Programming

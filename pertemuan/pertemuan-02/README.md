@@ -2,7 +2,21 @@
 
 ## Navigasi
 
-[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | [Pertemuan 01](../pertemuan-01/README.md) | **Pertemuan 02** | [Pertemuan 03](../pertemuan-03/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
+[Beranda](../../README.md) | [Prerequest](../../prerequest/README.md) | [Daftar Pertemuan](../../README.md#daftar-pertemuan) | [<- Sebelumnya: Pertemuan 01](../pertemuan-01/README.md) | [Selanjutnya: Pertemuan 03 ->](../pertemuan-03/README.md)
+
+---
+
+## Capaian Pembelajaran
+
+Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
+
+- Membedakan `type` vs `interface` dan memilih yang tepat untuk kasus tertentu
+- Menggunakan union type, optional property (`?`), dan generic (`Stack<T>`, `identity<T>`) pada kasus nyata
+- Mengetikkan function dengan tepat (parameter, return type, rest & callback)
+- Menerapkan modular programming: `import`/`export`, barrel file, dan struktur project `models/ services/ utils/`
+- Membangun aplikasi TypeScript modular dengan pemisahan model, service, dan utility yang dapat diuji
+
+> **Indikator ketercapaian:** Project terpisah rapi, tidak ada circular import, service tervalidasi dan dapat di-`import` antar modul.
 
 ---
 

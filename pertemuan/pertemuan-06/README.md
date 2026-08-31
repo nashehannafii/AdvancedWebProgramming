@@ -2,10 +2,23 @@
 
 ## Navigasi
 
-[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | [Pertemuan 01](../pertemuan-01/README.md) | ... | [Pertemuan 05](../pertemuan-05/README.md) | **Pertemuan 06** | [Pertemuan 07](../pertemuan-07/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
+[Beranda](../../README.md) | [Prerequest](../../prerequest/README.md) | [Daftar Pertemuan](../../README.md#daftar-pertemuan) | [<- Sebelumnya: Pertemuan 05](../pertemuan-05/README.md) | [Selanjutnya: Pertemuan 07 ->](../pertemuan-07/README.md)
 
 ---
 
+## Capaian Pembelajaran
+
+Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
+
+- Merancang resource dan endpoint REST API yang mengikuti prinsip REST (collection vs item)
+- Menggunakan route parameter (`:id`), query parameter (`?page&limit&search`), dan request body dengan validasi
+- Memilih HTTP status code dan format error response yang standar
+- Mendokumentasikan endpoint secara manual dan menjaga konsistensi
+- Membangun CRUD REST API lengkap untuk resource mahasiswa dengan Elysia beserta pagination & filtering
+
+> **Indikator ketercapaian:** 6 endpoint mahasiswa berfungsi, validasi menolak input salah dengan 400, dan pagination `meta` akurat.
+
+---
 ## Materi
 
 ### 1. REST API Principles

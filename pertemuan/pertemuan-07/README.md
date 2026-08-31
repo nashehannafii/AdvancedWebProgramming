@@ -2,10 +2,23 @@
 
 ## Navigasi
 
-[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | ... | [Pertemuan 06](../pertemuan-06/README.md) | **Pertemuan 07** | [Pertemuan 08](../pertemuan-08/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
+[Beranda](../../README.md) | [Prerequest](../../prerequest/README.md) | [Daftar Pertemuan](../../README.md#daftar-pertemuan) | [<- Sebelumnya: Pertemuan 06](../pertemuan-06/README.md) | [Selanjutnya: Pertemuan 08 ->](../pertemuan-08/README.md)
 
 ---
 
+## Capaian Pembelajaran
+
+Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
+
+- Menjelaskan konsep database relational, tabel, primary key, foreign key, dan relasi
+- Merancang skema MySQL untuk mahasiswa & mata kuliah (termasuk junction table) dengan constraint yang tepat
+- Menulis SQL dasar: SELECT (JOIN, WHERE, ORDER BY, LIMIT), INSERT, UPDATE, DELETE/soft-delete
+- Menghubungkan Elysia dengan MySQL via `mysql2/promise` pool dan mengelola koneksi
+- Mengimplementasikan Repository-Service-Controller untuk CRUD berbasis database dengan pagination & pencarian
+
+> **Indikator ketercapaian:** CRUD membaca/menulis ke MySQL (bukan in-memory), JOIN berfungsi, dan soft-delete tidak menghilangkan data permanen.
+
+---
 ## Materi
 
 ### 1. Database Relational

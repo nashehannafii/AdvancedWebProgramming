@@ -2,10 +2,23 @@
 
 ## Navigasi
 
-[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | ... | [Pertemuan 10](../pertemuan-10/README.md) | **Pertemuan 11** | [Pertemuan 12](../pertemuan-12/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
+[Beranda](../../README.md) | [Prerequest](../../prerequest/README.md) | [Daftar Pertemuan](../../README.md#daftar-pertemuan) | [<- Sebelumnya: Pertemuan 10](../pertemuan-10/README.md) | [Selanjutnya: Pertemuan 12 ->](../pertemuan-12/README.md)
 
 ---
 
+## Capaian Pembelajaran
+
+Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
+
+- Membuat form di Svelte dengan `bind:value` dan menangani submit (`on:submit|preventDefault`)
+- Menerapkan validasi client-side (required, pattern, minLength) dan menampilkan pesan field-level
+- Menerapkan validasi server-side di Elysia dengan schema `t.Object` dan validasi kustom
+- Menangani validation error terstruktur (`{ field, message }`) dan menampilkannya kembali di form
+- Memberikan user feedback (success/error notification) dan mencegah double submit
+
+> **Indikator ketercapaian:** Form menolak input salah di kedua sisi (frontend & backend), error field muncul tepat, dan data valid tersimpan.
+
+---
 ## Materi
 
 ### 1. Form Handling di Frontend

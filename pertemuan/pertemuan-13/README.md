@@ -2,10 +2,23 @@
 
 ## Navigasi
 
-[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | ... | [Pertemuan 12](../pertemuan-12/README.md) | **Pertemuan 13** | [Pertemuan 14](../pertemuan-14/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
+[Beranda](../../README.md) | [Prerequest](../../prerequest/README.md) | [Daftar Pertemuan](../../README.md#daftar-pertemuan) | [<- Sebelumnya: Pertemuan 12](../pertemuan-12/README.md) | [Selanjutnya: Pertemuan 14 ->](../pertemuan-14/README.md)
 
 ---
 
+## Capaian Pembelajaran
+
+Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
+
+- Menjelaskan peran OAuth 2.0 (Client, Resource Owner, Authorization Server, Resource Server), scope, dan Authorization Code Flow
+- Membedakan OAuth 2.0 untuk authorization vs authentication biasa
+- Mengimplementasikan login via identity provider (Google/GitHub): redirect -> code -> exchange token -> userinfo
+- Memetakan user OAuth ke user lokal (MySQL) dan menerbitkan JWT internal setelah verifikasi
+- Menangani redirect URI, error OAuth, dan mengamankan `client_secret` di environment variable
+
+> **Indikator ketercapaian:** Tombol "Login dengan Google" berhasil, callback menukar code menjadi token, dan user baru/lama dapat login tanpa password.
+
+---
 ## Materi
 
 ### 1. OAuth 2.0 vs Authentication
@@ -33,12 +46,12 @@
 ### 3. Authorization Code Flow
 
 ```
-1. Client → Redirect ke Authorization Server
-2. User → Login & Authorize
-3. Auth Server → Redirect ke Redirect URI dengan Authorization Code
-4. Client → Request Access Token (dengan Authorization Code)
-5. Auth Server → Response Access Token
-6. Client → Request Resource dengan Access Token
+1. Client -> Redirect ke Authorization Server
+2. User -> Login & Authorize
+3. Auth Server -> Redirect ke Redirect URI dengan Authorization Code
+4. Client -> Request Access Token (dengan Authorization Code)
+5. Auth Server -> Response Access Token
+6. Client -> Request Resource dengan Access Token
 ```
 
 ### 4. Scope

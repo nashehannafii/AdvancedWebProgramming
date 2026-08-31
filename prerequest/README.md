@@ -2,7 +2,20 @@
 
 ## Navigasi
 
-[🏠 Beranda](../README.md) | [🔧 Prerequest](./README.md) | [Pertemuan 01](../pertemuan/pertemuan-01/README.md) | [Pertemuan 02](../pertemuan/pertemuan-02/README.md) | ... | [Pertemuan 16](../pertemuan/pertemuan-16/README.md)
+[Beranda](../README.md) | [Daftar Pertemuan](../README.md#daftar-pertemuan) | [Mulai: Pertemuan 01](../pertemuan/pertemuan-01/README.md)
+
+---
+
+## Capaian Pembelajaran
+
+Setelah menyelesaikan prerequest ini, mahasiswa mampu:
+
+- Menginstal dan memverifikasi **Bun** (`bun --version`), **MySQL**, **Git**, serta tools DevOps (Caddy/Nginx, Cloudflare Tunnel) di Windows
+- Menginisialisasi project **Elysia** (`bun add elysia`) dan **Svelte** (`npm create svelte@latest`) dengan TypeScript
+- Mengonfigurasi **VS Code**, **Git/GitHub**, dan **Postman/Bruno** untuk pengembangan
+- Memahami struktur project `AdvancedWebProgramming/` dan alur kerja dari lokal -> GitHub -> deployment
+
+> **Indikator ketercapaian:** Semua perintah verifikasi di bagian Installation berhasil tanpa error dan project `backend`/`frontend` dapat dibuat.
 
 ---
 

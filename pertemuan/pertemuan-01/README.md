@@ -2,7 +2,21 @@
 
 ## Navigasi
 
-[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | **Pertemuan 01** | [Pertemuan 02](../pertemuan-02/README.md) | [Pertemuan 03](../pertemuan-03/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
+[Beranda](../../README.md) | [Prerequest](../../prerequest/README.md) | [Daftar Pertemuan](../../README.md#daftar-pertemuan) | [Selanjutnya: Pertemuan 02 ->](../pertemuan-02/README.md)
+
+---
+
+## Capaian Pembelajaran
+
+Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
+
+- Menjelaskan perbedaan JavaScript modern (ES6+) dan TypeScript serta alasan penggunaan static typing
+- Mendefinisikan dan menggunakan primitive types, array, tuple, object, dan function types dengan benar
+- Membuat interface untuk memodelkan data mahasiswa (nama, NIM, nilai)
+- Menerapkan type inference dan menghindari penggunaan `any`
+- Membangun program pengelolaan data mahasiswa sederhana dengan TypeScript dan menjalankannya via Bun
+
+> **Indikator ketercapaian:** Program dapat di-`bun run` tanpa error tipe, data mahasiswa dapat ditambah/dicari/diupdate/dihapus.
 
 ---
 

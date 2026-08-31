@@ -2,10 +2,23 @@
 
 ## Navigasi
 
-[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | [Pertemuan 01](../pertemuan-01/README.md) | ... | [Pertemuan 04](../pertemuan-04/README.md) | **Pertemuan 05** | [Pertemuan 06](../pertemuan-06/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
+[Beranda](../../README.md) | [Prerequest](../../prerequest/README.md) | [Daftar Pertemuan](../../README.md#daftar-pertemuan) | [<- Sebelumnya: Pertemuan 04](../pertemuan-04/README.md) | [Selanjutnya: Pertemuan 06 ->](../pertemuan-06/README.md)
 
 ---
 
+## Capaian Pembelajaran
+
+Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
+
+- Menjelaskan keunggulan Bun sebagai runtime TypeScript-native dan menginstalnya
+- Menginisialisasi project Bun + Elysia dan menjelaskan siklus request Elysia
+- Membuat routing dasar (GET/POST/PUT/PATCH/DELETE), mengakses `params`, `query`, `body`, `headers`, dan `ip`
+- Mengembalikan Response kustom (status, header) dan menangani validasi dasar
+- Menerapkan middleware sederhana (logger, error handler) pada Elysia
+
+> **Indikator ketercapaian:** Server Elysia berjalan di port 3000, semua route dasar dapat diakses dan divalidasi dengan schema `t.Object`.
+
+---
 ## Materi
 
 ### 1. Pengenalan Bun

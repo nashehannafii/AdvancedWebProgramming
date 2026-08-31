@@ -2,10 +2,23 @@
 
 ## Navigasi
 
-[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | ... | [Pertemuan 13](../pertemuan-13/README.md) | **Pertemuan 14** | [Pertemuan 15](../pertemuan-15/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
+[Beranda](../../README.md) | [Prerequest](../../prerequest/README.md) | [Daftar Pertemuan](../../README.md#daftar-pertemuan) | [<- Sebelumnya: Pertemuan 13](../pertemuan-13/README.md) | [Selanjutnya: Pertemuan 15 ->](../pertemuan-15/README.md)
 
 ---
 
+## Capaian Pembelajaran
+
+Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
+
+- Menerapkan keamanan web: CORS yang tepat, sanitasi XSS, pencegahan SQL Injection (parameterized query), CSRF token, validasi input, dan pengamanan token/password
+- Mengelola secrets via environment variables dan tidak membocorkan `.env` ke git
+- Menjelaskan dan menerapkan arsitektur berlapis: Controller -> Service -> Repository -> Model, plus Middleware, DTO, Utils
+- Melakukan refactoring dari kode monolitik menjadi struktur modular (`controllers/ services/ repositories/ models/ middleware/ routes/`)
+- Menerapkan separation of concerns hingga kode lebih testable dan maintainable
+
+> **Indikator ketercapaian:** Project ter-refactor rapi per layer, query aman dari SQLi, CORS hanya mengizinkan origin terdaftar, dan secrets di `.env`.
+
+---
 ## Materi Keamanan
 
 ### 1. CORS (Cross-Origin Resource Sharing)

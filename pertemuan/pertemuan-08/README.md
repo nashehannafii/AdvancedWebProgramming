@@ -2,10 +2,23 @@
 
 ## Navigasi
 
-[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | ... | [Pertemuan 07](../pertemuan-07/README.md) | **Pertemuan 08** | [Pertemuan 09](../pertemuan-09/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
+[Beranda](../../README.md) | [Prerequest](../../prerequest/README.md) | [Daftar Pertemuan](../../README.md#daftar-pertemuan) | [<- Sebelumnya: Pertemuan 07](../pertemuan-07/README.md) | [Selanjutnya: Pertemuan 09 ->](../pertemuan-09/README.md)
 
 ---
 
+## Capaian Pembelajaran
+
+Setelah menyelesaikan pertemuan ini (UTS), mahasiswa mampu:
+
+- Membangun REST API mandiri dengan TypeScript + Bun + Elysia + MySQL yang memenuhi minimal CRUD, validasi, dan error handling
+- Menjelaskan struktur project dan alur request dari route -> controller -> service -> repository -> DB
+- Mendemonstrasikan semua endpoint berfungsi (via Postman/Bruno/curl) dan data tersimpan persisten di MySQL
+- Menangani validasi input di server dan mengembalikan response error yang informatif
+- Mempresentasikan dan mempertahankan keputusan desain di depan penguji
+
+> **Indikator ketercapaian:** Project UTS lulus checklist (CRUD, REST, DB, validation, error handling) dan mahasiswa dapat menjelaskan kode tanpa membaca catatan.
+
+---
 ## Bentuk Penilaian
 
 - **Praktik**: Implementasi kode langsung

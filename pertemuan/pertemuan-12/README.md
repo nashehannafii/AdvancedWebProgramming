@@ -2,10 +2,23 @@
 
 ## Navigasi
 
-[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | ... | [Pertemuan 11](../pertemuan-11/README.md) | **Pertemuan 12** | [Pertemuan 13](../pertemuan-13/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
+[Beranda](../../README.md) | [Prerequest](../../prerequest/README.md) | [Daftar Pertemuan](../../README.md#daftar-pertemuan) | [<- Sebelumnya: Pertemuan 11](../pertemuan-11/README.md) | [Selanjutnya: Pertemuan 13 ->](../pertemuan-13/README.md)
 
 ---
 
+## Capaian Pembelajaran
+
+Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
+
+- Menjelaskan perbedaan authentication vs authorization
+- Mengimplementasikan register/login dengan password hashing (`bcrypt` dengan salt) dan verifikasi yang aman
+- Membuat dan memverifikasi JWT (header.payload.signature), access token & refresh token dengan `exp`/`iat`
+- Mengirim token via `Authorization: Bearer <token>` dan melindungi endpoint (`GET /api/profile`) dengan middleware
+- Membangun alur login lengkap (POST /api/login, /api/register, /api/refresh, /api/profile) yang aman
+
+> **Indikator ketercapaian:** Login mengembalikan JWT, endpoint protected menolak tanpa token (401) dan mengizinkan dengan token valid; password tersimpan sebagai hash.
+
+---
 ## Materi
 
 ### 1. Authentication vs Authorization

@@ -2,10 +2,23 @@
 
 ## Navigasi
 
-[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | ... | [Pertemuan 08](../pertemuan-08/README.md) | **Pertemuan 09** | [Pertemuan 10](../pertemuan-10/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
+[Beranda](../../README.md) | [Prerequest](../../prerequest/README.md) | [Daftar Pertemuan](../../README.md#daftar-pertemuan) | [<- Sebelumnya: Pertemuan 08](../pertemuan-08/README.md) | [Selanjutnya: Pertemuan 10 ->](../pertemuan-10/README.md)
 
 ---
 
+## Capaian Pembelajaran
+
+Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
+
+- Menjelaskan konsep Svelte sebagai compiler (tanpa virtual DOM) dan membuat project SvelteKit dengan TypeScript
+- Membuat component, mengirim `props`, mengelola `state`, dan menggunakan reactive statement
+- Menangani event (`on:click`, `on:keydown`) dan menerapkan conditional rendering (`{#if}`) serta list rendering (`{#each}`)
+- Mengonfigurasi TypeScript di Svelte (`svelte.config.js`, `app.d.ts`) dan menjaga type-safety di `.svelte`
+- Membangun frontend sederhana (mis. daftar mahasiswa) yang reaktif terhadap perubahan state
+
+> **Indikator ketercapaian:** Halaman Svelte menampilkan daftar dari state lokal, props mengalir benar, dan perubahan state langsung merefleksikan UI.
+
+---
 ## Materi
 
 ### 1. Pengenalan Svelte

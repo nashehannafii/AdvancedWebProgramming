@@ -2,10 +2,23 @@
 
 ## Navigasi
 
-[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | ... | [Pertemuan 09](../pertemuan-09/README.md) | **Pertemuan 10** | [Pertemuan 11](../pertemuan-11/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
+[Beranda](../../README.md) | [Prerequest](../../prerequest/README.md) | [Daftar Pertemuan](../../README.md#daftar-pertemuan) | [<- Sebelumnya: Pertemuan 09](../pertemuan-09/README.md) | [Selanjutnya: Pertemuan 11 ->](../pertemuan-11/README.md)
 
 ---
 
+## Capaian Pembelajaran
+
+Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
+
+- Menggunakan Fetch API untuk GET/POST/PUT/DELETE dari frontend Svelte dengan `async`/`await`
+- Mendesain API client terpusat (`ApiClient`) dan modul endpoint (`mahasiswaAPI`) yang reusable
+- Mengelola loading state, error state, dan menampilkan response API di UI dengan benar
+- Menerapkan store Svelte (`writable`, `derived`) untuk state global (list, pagination, total)
+- Mengintegrasikan Svelte <-> Elysia <-> MySQL secara end-to-end
+
+> **Indikator ketercapaian:** UI dapat list/create/update/delete mahasiswa yang tersinkron dengan backend; loading & error ditangani tanpa crash.
+
+---
 ## Materi
 
 ### 1. Fetch API

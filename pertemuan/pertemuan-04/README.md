@@ -2,10 +2,23 @@
 
 ## Navigasi
 
-[🏠 Beranda](../../README.md) | [🔧 Prerequest](../../prerequest/README.md) | [Pertemuan 01](../pertemuan-01/README.md) | [Pertemuan 02](../pertemuan-02/README.md) | [Pertemuan 03](../pertemuan-03/README.md) | **Pertemuan 04** | [Pertemuan 05](../pertemuan-05/README.md) | ... | [Pertemuan 16](../pertemuan-16/README.md)
+[Beranda](../../README.md) | [Prerequest](../../prerequest/README.md) | [Daftar Pertemuan](../../README.md#daftar-pertemuan) | [<- Sebelumnya: Pertemuan 03](../pertemuan-03/README.md) | [Selanjutnya: Pertemuan 05 ->](../pertemuan-05/README.md)
 
 ---
 
+## Capaian Pembelajaran
+
+Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
+
+- Menjelaskan arsitektur client-server dan anatomi HTTP (request line, header, body, status code)
+- Membedakan HTTP method (GET, POST, PUT, PATCH, DELETE) beserta sifat idempotent & safe
+- Menggunakan header, body JSON, dan status code yang tepat (2xx/4xx/5xx)
+- Merancang endpoint REST yang konsisten dan stateless
+- Membuat HTTP server sederhana dengan Bun (tanpa framework) yang melayani GET/POST dan mengembalikan JSON
+
+> **Indikator ketercapaian:** Server merespon `GET /api/status` dan `POST /api/users` dengan status & header yang benar, dapat diuji via `curl` atau Fetch API.
+
+---
 ## Materi
 
 ### 1. Client-Server Architecture
