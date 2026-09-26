@@ -23,13 +23,9 @@ Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
 
 ### 1. Client-Server Architecture
 
-```
-Client (Browser/Application)  <--HTTP-->  Server (API/Web Service)
-        |                                              |
-        v                                              v
-   User Interface                                  Business Logic
-                                                  Database
-```
+![Arsitektur Client-Server — HTTP Request/Response, Bun.serve() dan Database](./assets/p04-http-architecture.svg)
+
+> **Edit interaktif:** [Buka di Excalidraw](https://excalidraw.com/#json=2rGAz1qpHJ-tm_WnGEdG7,0zqh2_46VmgI1nLdUQWxBA) — via [Excalidraw MCP](https://excalidraw-mcp-orcin-tau.vercel.app/mcp) • Checkpoint `9ab8d3209dd743cd95`
 
 ### 2. HTTP Protocol
 
