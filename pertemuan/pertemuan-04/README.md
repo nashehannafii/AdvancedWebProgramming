@@ -23,13 +23,13 @@ Setelah menyelesaikan pertemuan ini, mahasiswa mampu:
 
 ### 1. Client-Server Architecture
 
-![Arsitektur Client-Server — HTTP Request/Response, Bun.serve() dan Database](./assets/p04-http-architecture.svg)
-
-> **Edit interaktif:** [Buka di Excalidraw](https://excalidraw.com/#json=2rGAz1qpHJ-tm_WnGEdG7,0zqh2_46VmgI1nLdUQWxBA) — via [Excalidraw MCP](https://excalidraw-mcp-orcin-tau.vercel.app/mcp) • Checkpoint `9ab8d3209dd743cd95`
+![Arsitektur client-server: request dan response](./assets/p04-01-client-server.svg)
 
 ### 2. HTTP Protocol
 
 HTTP (HyperText Transfer Protocol) adalah protokol untuk komunikasi antara client dan server.
+
+![Anatomi pesan HTTP — Request dan Response](./assets/p04-02-http-message.svg)
 
 #### HTTP Request Structure
 
@@ -68,6 +68,8 @@ Location: /api/users/1
 | PUT | Replace data | ✓ | ✗ |
 | PATCH | Modify data | ✗ | ✗ |
 | DELETE | Remove data | ✓ | ✗ |
+
+![Rangkuman HTTP methods beserta sifat safe dan idempotent](./assets/p04-03-methods.svg)
 
 ### 4. HTTP Headers
 
@@ -115,6 +117,8 @@ const responseHeaders = {
 | 500 | Internal Server Error | Error pada server |
 | 502 | Bad Gateway | Proxy error |
 | 503 | Service Unavailable | Server tidak tersedia |
+
+![Kelompok status code 2xx, 4xx, 5xx](./assets/p04-04-status-codes.svg)
 
 ### 6. Request & Response Body
 
@@ -183,6 +187,8 @@ PUT    /api/users/:id          // Replace user
 PATCH  /api/users/:id          // Update sebagian user
 DELETE /api/users/:id          // Delete user
 ```
+
+![Prinsip REST dan desain endpoint yang konsisten](./assets/p04-05-rest-endpoints.svg)
 
 ## Praktikum
 

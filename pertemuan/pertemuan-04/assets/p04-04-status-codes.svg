@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+  <rect width="900" height="200" rx="16" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="450" y="28" text-anchor="middle" font-size="12" font-weight="700" fill="#334155" letter-spacing="0.6">HTTP STATUS CODES — arti angka pertama</text>
+  <!-- 2xx -->
+  <rect x="20" y="44" width="280" height="136" rx="12" fill="white" stroke="#bbf7d0" stroke-width="1.6"/>
+  <rect x="20" y="44" width="280" height="28" rx="12" fill="#dcfce7"/><rect x="20" y="60" width="280" height="12" fill="#dcfce7"/>
+  <text x="160" y="62" text-anchor="middle" font-size="12" font-weight="800" fill="#14532d">2xx — SUCCESS</text>
+  <text x="40" y="96" font-size="11" fill="#1e293b"><tspan font-weight="700">200</tspan>  OK — berhasil</text>
+  <text x="40" y="118" font-size="11" fill="#1e293b"><tspan font-weight="700">201</tspan>  Created — resource baru jadi</text>
+  <text x="40" y="140" font-size="11" fill="#1e293b"><tspan font-weight="700">204</tspan>  No Content — sukses tanpa body</text>
+  <text x="40" y="164" font-size="10" fill="#16a34a">dipakai: GET, POST, DELETE sukses</text>
+  <!-- 4xx -->
+  <rect x="310" y="44" width="280" height="136" rx="12" fill="white" stroke="#fed7aa" stroke-width="1.6"/>
+  <rect x="310" y="44" width="280" height="28" rx="12" fill="#ffedd5"/><rect x="310" y="60" width="280" height="12" fill="#ffedd5"/>
+  <text x="450" y="62" text-anchor="middle" font-size="12" font-weight="800" fill="#9a3412">4xx — CLIENT ERROR</text>
+  <text x="330" y="96" font-size="11" fill="#1e293b"><tspan font-weight="700">400</tspan> Bad Request  <tspan fill="#94a3b8">•</tspan>  <tspan font-weight="700">401</tspan> Unauthorized</text>
+  <text x="330" y="118" font-size="11" fill="#1e293b"><tspan font-weight="700">403</tspan> Forbidden  <tspan fill="#94a3b8">•</tspan>  <tspan font-weight="700">404</tspan> Not Found</text>
+  <text x="330" y="140" font-size="11" fill="#1e293b"><tspan font-weight="700">405</tspan> Method Not Allowed</text>
+  <text x="330" y="164" font-size="10" fill="#ea580c">salah di sisi client — cek request</text>
+  <!-- 5xx -->
+  <rect x="600" y="44" width="280" height="136" rx="12" fill="white" stroke="#fecaca" stroke-width="1.6"/>
+  <rect x="600" y="44" width="280" height="28" rx="12" fill="#fee2e2"/><rect x="600" y="60" width="280" height="12" fill="#fee2e2"/>
+  <text x="740" y="62" text-anchor="middle" font-size="12" font-weight="800" fill="#991b1b">5xx — SERVER ERROR</text>
+  <text x="620" y="96" font-size="11" fill="#1e293b"><tspan font-weight="700">500</tspan>  Internal Server Error</text>
+  <text x="620" y="118" font-size="11" fill="#1e293b"><tspan font-weight="700">502</tspan>  Bad Gateway</text>
+  <text x="620" y="140" font-size="11" fill="#1e293b"><tspan font-weight="700">503</tspan>  Service Unavailable</text>
+  <text x="620" y="164" font-size="10" fill="#dc2626">salah di sisi server — retry / cek log</text>
+</svg>
