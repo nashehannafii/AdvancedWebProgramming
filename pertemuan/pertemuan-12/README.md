@@ -494,22 +494,6 @@ async function getProfile() {
 
 Untuk aplikasi browser, hindari `localStorage` jika dampak XSS belum ditangani dengan baik karena JavaScript dapat membaca token di sana. Pola yang umum adalah access token berumur pendek di memory dan refresh token pada cookie `HttpOnly`, disertai perlindungan CSRF serta konfigurasi `Secure` dan `SameSite`.
 
-### 14. Checklist Keamanan
-
-- [ ] Secret dibuat acak, panjang, berbeda untuk access dan refresh token.
-- [ ] Secret hanya disimpan di environment variable atau secret manager.
-- [ ] Password di-hash dengan salt dan tidak pernah dicatat ke log.
-- [ ] Access token memiliki expiry yang pendek.
-- [ ] Refresh token diverifikasi, disimpan dengan aman, dan dapat dicabut.
-- [ ] Algoritma, issuer, audience, dan expiry token diverifikasi.
-- [ ] Payload tidak berisi data rahasia.
-- [ ] Semua input divalidasi; query database menggunakan parameter.
-- [ ] Endpoint protected mengembalikan `401`, sedangkan izin kurang mengembalikan `403`.
-- [ ] Cookie authentication menggunakan `HttpOnly`, `Secure`, `SameSite`, dan perlindungan CSRF yang tepat.
-- [ ] CORS hanya mengizinkan origin yang diperlukan.
-- [ ] Rate limiting dan audit log diterapkan pada endpoint login.
-- [ ] Pesan error tidak membocorkan apakah email tertentu terdaftar.
-
 ---
 
 ## Pengujian dengan HTTP Client
